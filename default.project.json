@@ -1,0 +1,34 @@
+{
+	"name": "MoneyPlant",
+	"servePlaceIds": [6246456272],
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"Knit": {
+				"$path": "src/Knit"
+			}
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"Game": {
+				"$path": "src/Game/Server"
+			}
+		},
+		"ReplicatedFirst": {
+			"$className": "ReplicatedFirst",
+			"Game": {
+				"$path": "src/Game/Client/Begin"
+			}
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"Game": {
+					"$path": "src/Game/Client/Player"
+				}
+			}
+		}
+	}
+}
